@@ -1,0 +1,45 @@
+.main{
+    width: 600px;
+    display: flex;
+    border: 2PX solid RED;
+    /* flex-direction:row;
+    flex-wrap: wrap-reverse; */
+    flex-flow: row wrap ;
+    /* align-items: center;
+    justify-content: center; */
+
+}
+.ra1{
+    padding: 20PX;
+    background-color: blueviolet;
+    border: 2px solid black;    
+
+}
+.ra2{
+    padding: 20PX;
+    background-color: rgb(226, 214, 43);
+    border: 2px solid black;
+}
+.ra3{
+    padding: 20PX;
+    background-color: rgb(110, 226, 43);
+    border: 2px solid black;
+
+    flex-grow: 1;
+}
+.ra4{
+    padding: 20PX;
+    background-color: rgb(43, 226, 217);
+    border: 2px solid black;
+    flex-grow: 2;
+}
+.ra5{
+    padding: 20PX;
+    background-color: rgb(43, 70, 226);
+    border: 2px solid black;
+}
+.ra6{
+    padding: 20PX;
+    background-color: rgb(226, 43, 186);
+    border: 2px solid black;
+}
